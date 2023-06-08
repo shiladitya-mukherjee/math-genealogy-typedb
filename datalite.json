@@ -1,0 +1,2074 @@
+{
+  "nodes": [
+    {
+      "id": 11,
+      "name": "Alfred E. Engelbrecht",
+      "thesis": "Coupled Bending and Torsional Free Vibration of a Swept Wing",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1949,
+      "subject": null,
+      "advisors": [
+        1
+      ],
+      "students": []
+    },
+    {
+      "id": 4,
+      "name": "Charles Joseph Thorne",
+      "thesis": "The Approximate Solution of Linear Differential Equations by the Use of Functionals",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1941,
+      "subject": null,
+      "advisors": [
+        239
+      ],
+      "students": [
+        19930,
+        19939
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Ernest Willard Anderson",
+      "thesis": "Statics of Special Types of Homogeneous Elastic Slabs with Variable Thickness",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1933,
+      "subject": "74—Mechanics of deformable solids",
+      "advisors": [
+        258
+      ],
+      "students": [
+        11,
+        28,
+        31
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Carl Eric Langenhop",
+      "thesis": "Properties of Kernels of Integral Equations Whose Iterates Satisfy Linear Relations",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1948,
+      "subject": null,
+      "advisors": [
+        281
+      ],
+      "students": [
+        48,
+        104689,
+        38,
+        33,
+        3026,
+        39,
+        32,
+        35
+      ]
+    },
+    {
+      "id": 6,
+      "name": "William B. Stiles",
+      "thesis": "Solutions of Clamped Plated Problems by Means of Functions Derived from Membrane Characteristic Functions",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1945,
+      "subject": null,
+      "advisors": [
+        258
+      ],
+      "students": []
+    },
+    {
+      "id": 5,
+      "name": "Ralph Harry Tripp",
+      "thesis": "Statical Equilibrium of Skew and Sector-Shaped Plates",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1942,
+      "subject": null,
+      "advisors": [
+        258
+      ],
+      "students": []
+    },
+    {
+      "id": 10,
+      "name": "Frank E. Bortle",
+      "thesis": "Analytical Study of Dynamic Loads on Elastically Supported Slabs",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1949,
+      "subject": null,
+      "advisors": [
+        258
+      ],
+      "students": []
+    },
+    {
+      "id": 9,
+      "name": "Henry David Block",
+      "thesis": "Explicit Solutions of Certain Singular Integral Equations",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1949,
+      "subject": null,
+      "advisors": [
+        281
+      ],
+      "students": [
+        23,
+        28,
+        71,
+        101996,
+        87826
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Robert Arnold Worsing",
+      "thesis": "Integral Equation Solutions of Elastic Plate Problems",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1951,
+      "subject": null,
+      "advisors": [
+        258
+      ],
+      "students": []
+    },
+    {
+      "id": 8,
+      "name": "James W. Beach",
+      "thesis": "Flow of Viscous Fluid between Slowing Rotating, Eccentric Cylinders",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1948,
+      "subject": null,
+      "advisors": [
+        258
+      ],
+      "students": []
+    },
+    {
+      "id": 12,
+      "name": "Robert Nicholas Goss",
+      "thesis": "Center of Flexure of Beams of Triangular Cross-Section",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1950,
+      "subject": null,
+      "advisors": [
+        258
+      ],
+      "students": []
+    },
+    {
+      "id": 14,
+      "name": "Jun Tsu Chu",
+      "thesis": "Generalized Hermitian Operators in Hilbert Space",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1950,
+      "subject": null,
+      "advisors": [
+        5186
+      ],
+      "students": []
+    },
+    {
+      "id": 17,
+      "name": "Arnold Marion Wedel",
+      "thesis": "Applications of Volterra's Theory of Compostition to Hypergeometric Functions",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1951,
+      "subject": null,
+      "advisors": [
+        281
+      ],
+      "students": []
+    },
+    {
+      "id": 2,
+      "name": "Archie Higdon",
+      "thesis": "Stresses in Moderately Thick Rectangular Plates",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1936,
+      "subject": "74—Mechanics of deformable solids",
+      "advisors": [
+        258
+      ],
+      "students": []
+    },
+    {
+      "id": 3,
+      "name": "Donald Hill Rock",
+      "thesis": "Finite Strain Analysis in Elastic Theory",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1939,
+      "subject": null,
+      "advisors": [
+        258
+      ],
+      "students": []
+    },
+    {
+      "id": 15,
+      "name": "Roy Franklin Reeves",
+      "thesis": "Force Fields in which Centers of Gravity can be Defined",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1951,
+      "subject": null,
+      "advisors": [
+        281
+      ],
+      "students": []
+    },
+    {
+      "id": 13,
+      "name": "Lawrence Edward Payne",
+      "thesis": "Torsion and Flexure of Composite Sections",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1950,
+      "subject": null,
+      "advisors": [
+        258
+      ],
+      "students": [
+        59464,
+        59467,
+        59466,
+        59461,
+        52007,
+        16021,
+        40989,
+        12372,
+        59465,
+        265,
+        59468,
+        13372,
+        59463,
+        59469,
+        59462
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Robert Joe Lambert",
+      "thesis": "Extension of Normal Theory to General Matrices",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1951,
+      "subject": null,
+      "advisors": [
+        5186
+      ],
+      "students": [
+        174,
+        66,
+        127,
+        154,
+        60,
+        112,
+        84,
+        107,
+        148,
+        99,
+        163,
+        100,
+        111,
+        170,
+        156,
+        171,
+        133,
+        93,
+        70,
+        79,
+        109
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Victor Wayne Bolie",
+      "thesis": "Periodic orbits in the neighborhood of libration points in certain rotating systems",
+      "school": "Iowa State University",
+      "country": "UnitedStates",
+      "year": 1952,
+      "subject": null,
+      "advisors": [
+        4949
+      ],
+      "students": []
+    },
+    {
+      "id": 3838,
+      "name": "Linda Marie Lawson",
+      "thesis": "Computational Methods for Generalized Inverse Matrices",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1973,
+      "subject": null,
+      "advisors": [
+        11324
+      ],
+      "students": []
+    },
+    {
+      "id": 3843,
+      "name": "Vishwavasu Maharudrappa Sakhare",
+      "thesis": "Asymptotic and Oscillation Theorems for a Second Order Differential Equation with Delay",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1973,
+      "subject": null,
+      "advisors": [
+        3785
+      ],
+      "students": []
+    },
+    {
+      "id": 3844,
+      "name": "Dorian Phillip Yeager",
+      "thesis": "Some Results on the Structure of Compact Inverse Semigroups",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1974,
+      "subject": "08—General algebraic systems",
+      "advisors": [
+        462
+      ],
+      "students": []
+    },
+    {
+      "id": 3840,
+      "name": "Robert Allen Jones",
+      "thesis": "Existence Theorems for Matrix Riccati Equations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1973,
+      "subject": null,
+      "advisors": [
+        12990
+      ],
+      "students": []
+    },
+    {
+      "id": 3845,
+      "name": "Thomas Charles Gard",
+      "thesis": "Uniqueness Criteria for Solutions of Initial Value Problems for Ordinary Differential Equations and Stochastic Differential Equations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1974,
+      "subject": null,
+      "advisors": [
+        12990
+      ],
+      "students": [
+        5623
+      ]
+    },
+    {
+      "id": 3841,
+      "name": "William F. Lawkins",
+      "thesis": "Teichmüller Spaces of Punctured Riemann Surfaces",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1973,
+      "subject": null,
+      "advisors": [
+        13025
+      ],
+      "students": []
+    },
+    {
+      "id": 3842,
+      "name": "Calvin Irvin Owens",
+      "thesis": "On Semigroups of Binary Relations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1973,
+      "subject": null,
+      "advisors": [
+        5189
+      ],
+      "students": []
+    },
+    {
+      "id": 3837,
+      "name": "William Hunter Dent, Jr.",
+      "thesis": "Extended Decomposition of a 3-Manifold $M^3$ so as to Yield $M^3$",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1972,
+      "subject": null,
+      "advisors": [
+        662
+      ],
+      "students": []
+    },
+    {
+      "id": 3836,
+      "name": "Robert Patrick Webber",
+      "thesis": "Semigroups Determined by Matrix Norms",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1972,
+      "subject": null,
+      "advisors": [
+        6341
+      ],
+      "students": []
+    },
+    {
+      "id": 3839,
+      "name": "Robert Lee Anderson",
+      "thesis": "Singular Symmetric Differential Operators on a Hilbert Space of Vector Valued Functions",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1973,
+      "subject": null,
+      "advisors": [
+        3785
+      ],
+      "students": [
+        135970
+      ]
+    },
+    {
+      "id": 3846,
+      "name": "Soon Park Chung",
+      "thesis": "Some Algorithms Related to That of Sebastião e Silva",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1974,
+      "subject": null,
+      "advisors": [
+        6341
+      ],
+      "students": []
+    },
+    {
+      "id": 3848,
+      "name": "Raymond Andrew Stafford",
+      "thesis": "Existence Criteria for Scalar Riccati Equations and Applications to the Oscillation Theory of Second Order, Linear Equations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1975,
+      "subject": null,
+      "advisors": [
+        12990
+      ],
+      "students": []
+    },
+    {
+      "id": 3855,
+      "name": "William Daniel Cain",
+      "thesis": "Control Theory on Manifolds",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1978,
+      "subject": null,
+      "advisors": [
+        509
+      ],
+      "students": []
+    },
+    {
+      "id": 3850,
+      "name": "Juliana Harden Dowell",
+      "thesis": "The Ring of Arithmetic Functions under the Lucas Product",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1977,
+      "subject": null,
+      "advisors": [
+        11994
+      ],
+      "students": []
+    },
+    {
+      "id": 3853,
+      "name": "Lyndell Monroe Kerley",
+      "thesis": "(C, $\\beta$) Summability of Walsh-Fourier Series",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1977,
+      "subject": null,
+      "advisors": [
+        8272
+      ],
+      "students": []
+    },
+    {
+      "id": 3847,
+      "name": "James Edward Giles",
+      "thesis": "Sets of Uniqueness for the Walsh Functions",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1974,
+      "subject": null,
+      "advisors": [
+        8272
+      ],
+      "students": []
+    },
+    {
+      "id": 3849,
+      "name": "James Winston Crawley, Jr.",
+      "thesis": "A Systematic Study of Certain Categorical Concepts in Various Categories of Topological Semigroups",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1976,
+      "subject": null,
+      "advisors": [
+        462
+      ],
+      "students": []
+    },
+    {
+      "id": 3854,
+      "name": "Dong Myung Chung",
+      "thesis": "Semistable and Self-Decomposable Probability Measures on Certain Locally Convex Spaces",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1977,
+      "subject": null,
+      "advisors": [
+        3926
+      ],
+      "students": []
+    },
+    {
+      "id": 3851,
+      "name": "David Chih-Jen Chang",
+      "thesis": "Integral Inequalities Associated with Regular and Singular Boundary Value Problems",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1977,
+      "subject": null,
+      "advisors": [
+        9730
+      ],
+      "students": []
+    },
+    {
+      "id": 3852,
+      "name": "John David Nichols",
+      "thesis": "Total Sequences in Topological Vector Spaces",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1977,
+      "subject": null,
+      "advisors": [
+        3926
+      ],
+      "students": []
+    },
+    {
+      "id": 3857,
+      "name": "Ronald Lloyd Wilson",
+      "thesis": "Intrinsic Topologies on Partially Ordered Sets and Results on Compact Semigroups",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1978,
+      "subject": null,
+      "advisors": [
+        462
+      ],
+      "students": []
+    },
+    {
+      "id": 3860,
+      "name": "Donald Kriss Preston",
+      "thesis": "A Study of Product Decompositions of Topological Manifolds",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1979,
+      "subject": null,
+      "advisors": [
+        705
+      ],
+      "students": []
+    },
+    {
+      "id": 3856,
+      "name": "John Richard Stoughton",
+      "thesis": "Relative-S-Fibrations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1978,
+      "subject": null,
+      "advisors": [
+        509
+      ],
+      "students": []
+    },
+    {
+      "id": 3858,
+      "name": "David Hume",
+      "thesis": "A Scale to Measure Attitude toward One's Mathematics Teacher",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1979,
+      "subject": null,
+      "advisors": [
+        9928
+      ],
+      "students": []
+    },
+    {
+      "id": 3859,
+      "name": "Ruth Ann Lewis",
+      "thesis": "P-Adic Number Systems for Error-Free Computations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1979,
+      "subject": null,
+      "advisors": [
+        14736
+      ],
+      "students": []
+    },
+    {
+      "id": 3863,
+      "name": "William J. Layton",
+      "thesis": "The Galerkin Method for First Order Hyperbolic Equations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1980,
+      "subject": null,
+      "advisors": [
+        12422
+      ],
+      "students": [
+        76862,
+        70789,
+        149543,
+        251339,
+        88330,
+        40451,
+        235687,
+        106566,
+        76864,
+        219057,
+        51704,
+        163028,
+        188610,
+        86699,
+        215337,
+        183616,
+        123192,
+        202404,
+        48261,
+        149544,
+        102853,
+        153852,
+        261387,
+        196310,
+        106039,
+        14118,
+        235694,
+        102997,
+        76863,
+        188597,
+        125028,
+        40452,
+        183617,
+        172514,
+        183615,
+        250298,
+        178749
+      ]
+    },
+    {
+      "id": 3862,
+      "name": "Terry Lantz Lay",
+      "thesis": "Cell-Like, Totally Noncellular Decompositions of Hilbert Cube Manifolds",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1980,
+      "subject": "57—Manifolds and cell complexes",
+      "advisors": [
+        10298
+      ],
+      "students": [
+        109339
+      ]
+    },
+    {
+      "id": 3865,
+      "name": "Donald Louie",
+      "thesis": "Sample Path Properties of Banach Space-Valued Stable Stochastic Processes",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1980,
+      "subject": null,
+      "advisors": [
+        3926
+      ],
+      "students": []
+    },
+    {
+      "id": 3864,
+      "name": "Charles Harper Powell",
+      "thesis": "Dyadic Differentiation of Walsh Series",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1980,
+      "subject": null,
+      "advisors": [
+        8272
+      ],
+      "students": []
+    },
+    {
+      "id": 3861,
+      "name": "Alfred Harold Cripps",
+      "thesis": "Green's Theories and Coextensions",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1980,
+      "subject": null,
+      "advisors": [
+        462
+      ],
+      "students": []
+    },
+    {
+      "id": 3867,
+      "name": "Linda Joy Svoboda Allen",
+      "thesis": "Applications of Differential Inequalities to Persistence and Extinction Problems for Reaction-Diffusion Systems",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1981,
+      "subject": null,
+      "advisors": [
+        3548
+      ],
+      "students": [
+        137406,
+        23431,
+        238897,
+        61268,
+        112033,
+        238896,
+        184921,
+        100704,
+        238894,
+        137407
+      ]
+    },
+    {
+      "id": 3868,
+      "name": "Steven Alan Pax",
+      "thesis": "Sewings of Closed Four-Cell Complements",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1981,
+      "subject": null,
+      "advisors": [
+        705
+      ],
+      "students": []
+    },
+    {
+      "id": 3869,
+      "name": "Jerome Fields Eastham, Jr.",
+      "thesis": "On the Finite Element Method in Anisotropic Sobolev Spaces",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1981,
+      "subject": null,
+      "advisors": [
+        12422
+      ],
+      "students": []
+    },
+    {
+      "id": 3866,
+      "name": "Janet Sylvia Peterson",
+      "thesis": "On Eigenvalue Approximations by Mixed Finite Element Methods",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1980,
+      "subject": null,
+      "advisors": [
+        12422
+      ],
+      "students": [
+        113983,
+        80691,
+        76830,
+        126321,
+        241594,
+        202408,
+        201254,
+        158498
+      ]
+    },
+    {
+      "id": 3870,
+      "name": "Medhat Naguib Antonios",
+      "thesis": "Input-Output Analysis of Mathematical Models of Ecosystems",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1982,
+      "subject": null,
+      "advisors": [
+        3548
+      ],
+      "students": []
+    },
+    {
+      "id": 3872,
+      "name": "Sulbha Goyal",
+      "thesis": "A Class of Rosenbrock-type Schemes for Second Order Nonlinear Systems of Ordinary Differential Equations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1983,
+      "subject": null,
+      "advisors": [
+        11500
+      ],
+      "students": []
+    },
+    {
+      "id": 3873,
+      "name": "Edward James Allen",
+      "thesis": "A Galerkin Method for Numerically Solving the Energy-Dependent Neutron Transport Equation",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1983,
+      "subject": null,
+      "advisors": [
+        13025
+      ],
+      "students": [
+        40252,
+        72664,
+        183880,
+        183879,
+        238897,
+        99823,
+        37943
+      ]
+    },
+    {
+      "id": 3875,
+      "name": "Jay Zimmerman",
+      "thesis": "The Occurrence of Certain Types of Groups as Automorphism Groups",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1983,
+      "subject": "20—Group theory and generalizations",
+      "advisors": [
+        27098
+      ],
+      "students": []
+    },
+    {
+      "id": 3877,
+      "name": "Philip Lee Bowers",
+      "thesis": "Applications of General Position Properties of Dendrites to Hilbert Space Topology",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1983,
+      "subject": null,
+      "advisors": [
+        10298
+      ],
+      "students": [
+        52219,
+        2674,
+        84125,
+        99824
+      ]
+    },
+    {
+      "id": 3871,
+      "name": "William Joseph Harrod",
+      "thesis": "Rank Modification Methods for Certain Singular Systems of Linear Equations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1982,
+      "subject": null,
+      "advisors": [
+        11324
+      ],
+      "students": []
+    },
+    {
+      "id": 3876,
+      "name": "Georges Halim Guirguis",
+      "thesis": "On the Existence, Uniqueness, Regularity and Approximation of the Exterior Stokes Problem in R3",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1983,
+      "subject": null,
+      "advisors": [
+        12422
+      ],
+      "students": []
+    },
+    {
+      "id": 3874,
+      "name": "José Tongo De Luna",
+      "thesis": "Analysis of Mathematical Models of Resource-Consumer-Toxicant Interactions",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1983,
+      "subject": null,
+      "advisors": [
+        3548
+      ],
+      "students": []
+    },
+    {
+      "id": 3880,
+      "name": "Jung-In Kang Choi",
+      "thesis": "Mappings of ANR's Whose Images are ANR's",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1986,
+      "subject": null,
+      "advisors": [
+        10298
+      ],
+      "students": []
+    },
+    {
+      "id": 3879,
+      "name": "Mladen F. Bestvina",
+      "thesis": "Characterizing K-Dimensional Universal Menger Compacta",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1984,
+      "subject": null,
+      "advisors": [
+        10298
+      ],
+      "students": [
+        167414,
+        78590,
+        109885,
+        39888,
+        39887,
+        197743,
+        218541,
+        197812,
+        113595,
+        20096,
+        197751,
+        197810,
+        36413,
+        185050,
+        250617,
+        39886,
+        237541,
+        65222
+      ]
+    },
+    {
+      "id": 3878,
+      "name": "Clyde Ray Hembree",
+      "thesis": "Model for Meta-Analysis of Research in Education, with a Demonstration in Mathematics Education: Effects of Hand-Held Calculators",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1984,
+      "subject": "97—Mathematics education",
+      "advisors": [
+        634,
+        9928
+      ],
+      "students": []
+    },
+    {
+      "id": 3882,
+      "name": "Stephen Louis Keeling",
+      "thesis": "Galerkin/Runge-Kutta Discretizations for Parabolic Partial Differential Equations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1986,
+      "subject": null,
+      "advisors": [
+        11625
+      ],
+      "students": [
+        200856,
+        261800
+      ]
+    },
+    {
+      "id": 3883,
+      "name": "Edward Caston Nichols",
+      "thesis": "Maximum Principles for P-Functions in Elliptic Partial Differential Equations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1986,
+      "subject": null,
+      "advisors": [
+        13372
+      ],
+      "students": []
+    },
+    {
+      "id": 3884,
+      "name": "Jia Li",
+      "thesis": "Persistence and Extinction of Populations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1987,
+      "subject": null,
+      "advisors": [
+        3548
+      ],
+      "students": [
+        88855
+      ]
+    },
+    {
+      "id": 3885,
+      "name": "Stephen Lee Clark",
+      "thesis": "Some Qualitative Properties of the Spectral Density Function for Hamiltonian Systems",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1987,
+      "subject": null,
+      "advisors": [
+        3785
+      ],
+      "students": []
+    },
+    {
+      "id": 3886,
+      "name": "David Fred Snyder",
+      "thesis": "Partially Acyclic Manifold Decompositions of Manifolds Yielding Generalized Manifolds",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1988,
+      "subject": "57—Manifolds and cell complexes",
+      "advisors": [
+        705
+      ],
+      "students": []
+    },
+    {
+      "id": 3881,
+      "name": "David Carter Harris",
+      "thesis": "Almost Everywhere Divergence of Two-Dimensional Walsh-Fourier Series",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1986,
+      "subject": null,
+      "advisors": [
+        8272
+      ],
+      "students": []
+    },
+    {
+      "id": 3888,
+      "name": "Craig Robert Guilbault",
+      "thesis": "Some Results in the Study of Non Compact 4-Manifolds",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1988,
+      "subject": null,
+      "advisors": [
+        705
+      ],
+      "students": [
+        238379,
+        191965,
+        108173,
+        126779,
+        191775,
+        238378,
+        190149,
+        190611,
+        148390
+      ]
+    },
+    {
+      "id": 3889,
+      "name": "P. Xavier Raja Retnam",
+      "thesis": "On a Multiple Stochastic Integral with Respect to a Strictly Semi Stable Random Measure",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1988,
+      "subject": null,
+      "advisors": [
+        3926
+      ],
+      "students": []
+    },
+    {
+      "id": 3887,
+      "name": "Elizabeth Bruce Cohen",
+      "thesis": "Analysis of a Class of Two Step Implicit Runge-Kutta Schemes for Second Order Systems for Ordinary Differential Equations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1988,
+      "subject": null,
+      "advisors": [
+        11500
+      ],
+      "students": []
+    },
+    {
+      "id": 3892,
+      "name": "William R. McKinney",
+      "thesis": "Optimal Error Estimates for High Order Runge-Kutta Methods Applied to Evolutionary Equations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1989,
+      "subject": null,
+      "advisors": [
+        11625
+      ],
+      "students": []
+    },
+    {
+      "id": 3891,
+      "name": "John Wesley Emert",
+      "thesis": "Defining and Distinguishing \"Twisted\" Lens Spaces",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1989,
+      "subject": null,
+      "advisors": [
+        509
+      ],
+      "students": []
+    },
+    {
+      "id": 3894,
+      "name": "Young Ho Im",
+      "thesis": "Submanifold Decompositions That Induce Approximate Fibrations and Approximation by Bundle Maps",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1991,
+      "subject": null,
+      "advisors": [
+        705
+      ],
+      "students": []
+    },
+    {
+      "id": 3890,
+      "name": "Terry Gayle Anderson",
+      "thesis": "A Theory of Relative Boundedness and Relative Compactness for Ordinary Differential Operators",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1989,
+      "subject": null,
+      "advisors": [
+        3785
+      ],
+      "students": []
+    },
+    {
+      "id": 3896,
+      "name": "Reid Marshall Davis",
+      "thesis": "Covers, Q-binomial Series and Q-Lattices",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1991,
+      "subject": "05—Combinatorics",
+      "advisors": [
+        29348
+      ],
+      "students": []
+    },
+    {
+      "id": 3895,
+      "name": "Jacques A. Loureiro da Silva",
+      "thesis": "Stability of Nonlinear Age Structured Models",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1991,
+      "subject": null,
+      "advisors": [
+        3548
+      ],
+      "students": []
+    },
+    {
+      "id": 3893,
+      "name": "John Thomas Condo",
+      "thesis": "LCM-Stability of Power Series Extensions Characterizes Dedekind Domains",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1991,
+      "subject": null,
+      "advisors": [
+        7536
+      ],
+      "students": []
+    },
+    {
+      "id": 3897,
+      "name": "Mohammad Majed Sidani",
+      "thesis": "A Parallel Algorithm for the Non-Symmetric Eigenvalue Problem",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1991,
+      "subject": null,
+      "advisors": [
+        14931
+      ],
+      "students": []
+    },
+    {
+      "id": 700,
+      "name": "Patrick Meriwether Gilmer",
+      "thesis": "Configurations of surfaces in 4-manifolds and other topics",
+      "school": "University of California, Berkeley",
+      "country": "UnitedStates",
+      "year": 1978,
+      "subject": null,
+      "advisors": [
+        8593
+      ],
+      "students": [
+        194018,
+        194014,
+        3299,
+        99151,
+        218131,
+        3297,
+        104672,
+        24827,
+        3311,
+        194015,
+        53697
+      ]
+    },
+    {
+      "id": 3898,
+      "name": "John Bryant Drake",
+      "thesis": "Convection in the Melt",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1991,
+      "subject": null,
+      "advisors": [
+        4645
+      ],
+      "students": []
+    },
+    {
+      "id": 701,
+      "name": "Robert Francis Craggs",
+      "thesis": "Small Ambient Isotopies of a 3-Manifold which Transform One Embedding of a Polyhedron into Another",
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1966,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": [
+        46792,
+        4163,
+        4165,
+        4164,
+        66621,
+        4162
+      ]
+    },
+    {
+      "id": 3899,
+      "name": "Hyun Young Lee",
+      "thesis": "Galerkin/Runge-Kutta Discretization for the Nonlinear Schrödinger Equation",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1991,
+      "subject": null,
+      "advisors": [
+        11625
+      ],
+      "students": []
+    },
+    {
+      "id": 3900,
+      "name": "Azmy Sima'an Ackleh",
+      "thesis": "Modeling Biological Processes in Aggregation of Phytoplankton",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1993,
+      "subject": null,
+      "advisors": [
+        3548
+      ],
+      "students": [
+        150284,
+        150285,
+        184615,
+        107540,
+        37937,
+        111658,
+        183909,
+        183911,
+        37938,
+        106993,
+        109674,
+        183910
+      ]
+    },
+    {
+      "id": 702,
+      "name": "Stephen L. Jones",
+      "thesis": "Concerning collections filling Euclidean n-space.",
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1967,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": []
+    },
+    {
+      "id": 3902,
+      "name": "Marek Alfred Galecki",
+      "thesis": "Enhanced Cohomology and Obstruction Theory",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1993,
+      "subject": null,
+      "advisors": [
+        509
+      ],
+      "students": []
+    },
+    {
+      "id": 705,
+      "name": "Robert Jay Daverman",
+      "thesis": "Locally Fenced 2-Spheres in S**3.",
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1967,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": [
+        3832,
+        706,
+        3888,
+        29602,
+        3894,
+        22261,
+        3868,
+        3860,
+        29601,
+        3886,
+        3903,
+        83977
+      ]
+    },
+    {
+      "id": 704,
+      "name": "Thomas Perrin Wright",
+      "thesis": "On Stable Homeomorphisms of Euclidean n-space.",
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1967,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": []
+    },
+    {
+      "id": 3903,
+      "name": "Paul Donald Thurston",
+      "thesis": "The Topology of 4-Dimensional G-Spaces and a Study of 4-Manifolds of Non-Positive Curvature",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1993,
+      "subject": null,
+      "advisors": [
+        705
+      ],
+      "students": []
+    },
+    {
+      "id": 706,
+      "name": "Charles David Bass",
+      "thesis": "Squeezing Disks in Euclidean 3-Space",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1971,
+      "subject": null,
+      "advisors": [
+        705
+      ],
+      "students": []
+    },
+    {
+      "id": 3904,
+      "name": "Vagelis Stefanopoulos",
+      "thesis": "The Role of Critical Eigenvalues and Eigenfunctions in a Class of Singularly Perturbed Problems",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1993,
+      "subject": null,
+      "advisors": [
+        4646
+      ],
+      "students": []
+    },
+    {
+      "id": 707,
+      "name": "Richard A. Jensen",
+      "thesis": "Cross-Sectionally Connected Spheres.",
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1969,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": []
+    },
+    {
+      "id": 3905,
+      "name": "Shandelle Marie Henson",
+      "thesis": "Individual-based Physiologically Structured Population and Community Models",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1994,
+      "subject": null,
+      "advisors": [
+        3548
+      ],
+      "students": []
+    },
+    {
+      "id": 708,
+      "name": "Burt Cash",
+      "thesis": null,
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1969,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": []
+    },
+    {
+      "id": 709,
+      "name": "Michael Olinick",
+      "thesis": "Reflexive compact maps of Euclidean spaces and the monotone mapping problem.",
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1970,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": []
+    },
+    {
+      "id": 3906,
+      "name": "Theodoros Katsaounis",
+      "thesis": "On Fully Discrete Galerkin Approximations for the Incompressible Navier-Stokes Equations",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1994,
+      "subject": "65—Numerical analysis",
+      "advisors": [
+        11625
+      ],
+      "students": []
+    },
+    {
+      "id": 3908,
+      "name": "Michael Kowalczyk",
+      "thesis": "Study of Equillibria of Parabolic Differential Equations with Interfaces Intersecting the Boundry",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1995,
+      "subject": null,
+      "advisors": [
+        4646
+      ],
+      "students": []
+    },
+    {
+      "id": 711,
+      "name": "Dallas E. Webster",
+      "thesis": "Alternate methods in handle-straightening theory.",
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1970,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": [
+        202118
+      ]
+    },
+    {
+      "id": 3909,
+      "name": "Huan-Yu Zhao",
+      "thesis": "Existence, Uniqueness and Regularity of Solutions to Elastic-Plastic Problems with the Traction Boundary Condition",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1995,
+      "subject": null,
+      "advisors": [
+        11832
+      ],
+      "students": []
+    },
+    {
+      "id": 712,
+      "name": "Robert Joseph Krueger",
+      "thesis": "Disconjugacy of nth Order Linear Difference Equations",
+      "school": "University of Nebraska-Lincoln",
+      "country": "UnitedStates",
+      "year": 1998,
+      "subject": null,
+      "advisors": [
+        3807
+      ],
+      "students": []
+    },
+    {
+      "id": 3910,
+      "name": "Katherine Renee Deaton Fister",
+      "thesis": "Applications of Optimal Control",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1996,
+      "subject": null,
+      "advisors": [
+        6937
+      ],
+      "students": []
+    },
+    {
+      "id": 713,
+      "name": "Mary A. Gerlach",
+      "thesis": "Some fibered cellular decompositions of E3 give E3.",
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1971,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": []
+    },
+    {
+      "id": 3907,
+      "name": "Sanjay Chawla",
+      "thesis": "Applications of Optimal Control Theory to Distributed Parameter Systems",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1995,
+      "subject": null,
+      "advisors": [
+        6937
+      ],
+      "students": [
+        140330,
+        195931,
+        195535,
+        195531,
+        174015,
+        197913,
+        140083,
+        195532,
+        195530
+      ]
+    },
+    {
+      "id": 703,
+      "name": "James Michael Yohe",
+      "thesis": "Hereditarily Infinite Dimensional Spaces.",
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1967,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": []
+    },
+    {
+      "id": 710,
+      "name": "Jacob Hairston Gerlach",
+      "thesis": "Toroidal Decompositions of E3 which give E3",
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1970,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": []
+    },
+    {
+      "id": 3911,
+      "name": "Michael Scott Gilbert",
+      "thesis": "Extensions of Commutative Rings with Linearly Ordered Intermediate Rings",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1996,
+      "subject": "13—Commutative rings and algebras",
+      "advisors": [
+        7536
+      ],
+      "students": []
+    },
+    {
+      "id": 3901,
+      "name": "Tomasz Dubejko",
+      "thesis": "Branched Circle Packings, Discrete Complex Polynomials, and the Approximaion of Analytic Functions",
+      "school": "University of Tennessee - Knoxville",
+      "country": "UnitedStates",
+      "year": 1993,
+      "subject": null,
+      "advisors": [
+        9596
+      ],
+      "students": []
+    },
+    {
+      "id": 3912,
+      "name": "Christopher Hsiung",
+      "thesis": "Stability of Differential Forms",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1973,
+      "subject": null,
+      "advisors": [
+        4576
+      ],
+      "students": []
+    },
+    {
+      "id": 714,
+      "name": "Ralph Jones",
+      "thesis": "Triangulated open n-manifolds are unions of n open n-cells.",
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1971,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": []
+    },
+    {
+      "id": 715,
+      "name": "Arnold C. Shilepsky",
+      "thesis": "Homogeneity and extension properties of embeddings of S1 in E3.",
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1971,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": []
+    },
+    {
+      "id": 3913,
+      "name": "Leslie Charles Wilson",
+      "thesis": "Equivalance of Stable Mappings Between Two-Dimensional Manifolds",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1973,
+      "subject": null,
+      "advisors": [
+        4576
+      ],
+      "students": [
+        40562,
+        32866
+      ]
+    },
+    {
+      "id": 3915,
+      "name": "Jan Maksymilian Gronski",
+      "thesis": "On the Classification Problem for the Control Vector Fields",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1974,
+      "subject": null,
+      "advisors": [
+        4576
+      ],
+      "students": []
+    },
+    {
+      "id": 718,
+      "name": "Gary Hardin Richter",
+      "thesis": "Some Properties of Patched 2-Spheres.",
+      "school": "University of Texas at Austin",
+      "country": "UnitedStates",
+      "year": 1978,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": []
+    },
+    {
+      "id": 3916,
+      "name": "Jack Kirk Anderson",
+      "thesis": "On the Structure of the Set of Attainability",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1975,
+      "subject": null,
+      "advisors": [
+        4576
+      ],
+      "students": []
+    },
+    {
+      "id": 719,
+      "name": "Julia McDonald",
+      "thesis": null,
+      "school": "University of Wisconsin-Madi",
+      "country": "UnitedStates",
+      "year": null,
+      "subject": null,
+      "advisors": [],
+      "students": []
+    },
+    {
+      "id": 3917,
+      "name": "Kevin A. Grasse",
+      "thesis": "Controllability and Accessibility in Nonlinear Control Systems",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1979,
+      "subject": null,
+      "advisors": [
+        4576
+      ],
+      "students": [
+        110454,
+        68907,
+        40426
+      ]
+    },
+    {
+      "id": 720,
+      "name": "Fredric Tufte",
+      "thesis": null,
+      "school": "University of Wisconsin-Madi",
+      "country": "UnitedStates",
+      "year": null,
+      "subject": null,
+      "advisors": [],
+      "students": []
+    },
+    {
+      "id": 3918,
+      "name": "Christopher John Gardiner",
+      "thesis": "A Classification of Kupka-Smale Flows on the Torus",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1981,
+      "subject": null,
+      "advisors": [
+        4576
+      ],
+      "students": []
+    },
+    {
+      "id": 721,
+      "name": "Gordon McCrea Fisher",
+      "thesis": "On the Group of All Homeomorphisms of a Manifold",
+      "school": "Louisiana State University",
+      "country": "UnitedStates",
+      "year": 1959,
+      "subject": null,
+      "advisors": [
+        307
+      ],
+      "students": []
+    },
+    {
+      "id": 3919,
+      "name": "Franz Tanner",
+      "thesis": "On the Smoothness of the Belman Function",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1988,
+      "subject": null,
+      "advisors": [
+        4576
+      ],
+      "students": []
+    },
+    {
+      "id": 722,
+      "name": "Ellard Velpeau Nunnally",
+      "thesis": "Some Conjugation Theorems for Certain Invertible Spaces",
+      "school": "Louisiana State University",
+      "country": "UnitedStates",
+      "year": 1964,
+      "subject": null,
+      "advisors": [
+        307
+      ],
+      "students": []
+    },
+    {
+      "id": 3920,
+      "name": "Leummin Yao",
+      "thesis": "On the Maximum Number of Limit Cycles of Certain Polynomial Lienard Equations",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1995,
+      "subject": null,
+      "advisors": [
+        4576
+      ],
+      "students": []
+    },
+    {
+      "id": 723,
+      "name": "Arnold Raleigh Vobach",
+      "thesis": "On Two-Dimensional Continua Structured by Finite Families of Simple Closed Curves",
+      "school": "Louisiana State University",
+      "country": "UnitedStates",
+      "year": 1963,
+      "subject": null,
+      "advisors": [
+        307
+      ],
+      "students": [
+        725,
+        8865,
+        724
+      ]
+    },
+    {
+      "id": 3921,
+      "name": "Allen Dale Rogers",
+      "thesis": "Theory and Applications of a Functional from Metric Geometry",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1990,
+      "subject": null,
+      "advisors": [
+        16787
+      ],
+      "students": []
+    },
+    {
+      "id": 724,
+      "name": "Caroll Vernon Riecke",
+      "thesis": "The Lattice of Convergence Structures",
+      "school": "University of Houston",
+      "country": "UnitedStates",
+      "year": 1971,
+      "subject": null,
+      "advisors": [
+        723
+      ],
+      "students": []
+    },
+    {
+      "id": 716,
+      "name": "Fred D. Crary",
+      "thesis": "Some new engulfing theorems.",
+      "school": "University of Wisconsin-Madison",
+      "country": "UnitedStates",
+      "year": 1973,
+      "subject": "57—Manifolds and cell complexes",
+      "advisors": [
+        305
+      ],
+      "students": []
+    },
+    {
+      "id": 3914,
+      "name": "Deborah Rebhuhn",
+      "thesis": "On the Set of Attainability",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1974,
+      "subject": null,
+      "advisors": [
+        4576
+      ],
+      "students": []
+    },
+    {
+      "id": 725,
+      "name": "David O'Steen",
+      "thesis": "Hyper Spaces in the Theory of Function Spaces",
+      "school": "University of Houston",
+      "country": "UnitedStates",
+      "year": 1972,
+      "subject": null,
+      "advisors": [
+        723
+      ],
+      "students": []
+    },
+    {
+      "id": 726,
+      "name": "Beverly Lorraine Brechner",
+      "thesis": "On the Dimensions of Certain Spaces of Homeomorphisms",
+      "school": "Louisiana State University",
+      "country": "UnitedStates",
+      "year": 1964,
+      "subject": null,
+      "advisors": [
+        307
+      ],
+      "students": [
+        1770,
+        1737,
+        1740,
+        64991
+      ]
+    },
+    {
+      "id": 3922,
+      "name": "William Taber",
+      "thesis": "Projectively Equivalent Metrics Subject to Constraints",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1980,
+      "subject": null,
+      "advisors": [
+        4009, 726, 3914
+      ],
+      "students": []
+    },
+    {
+      "id": 717,
+      "name": "I. Wayne (Ira) Lewis",
+      "thesis": "Stable Homeomorphisms of the Pseudo-Arc.",
+      "school": "University of Texas at Austin",
+      "country": "UnitedStates",
+      "year": 1977,
+      "subject": null,
+      "advisors": [
+        305
+      ],
+      "students": [
+        40286
+      ]
+    },
+    {
+      "id": 3923,
+      "name": "Nadine Louise Menninga",
+      "thesis": "Immersions of Positively Curved Manifolds into Manifolds with Curvature Bounded Above",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1984,
+      "subject": null,
+      "advisors": [
+        4009
+      ],
+      "students": []
+    },
+    {
+      "id": 728,
+      "name": "James Edward West",
+      "thesis": "Fixed Point Sets of Transformation Groups on Infinite Product Spaces",
+      "school": "Louisiana State University",
+      "country": "UnitedStates",
+      "year": 1967,
+      "subject": null,
+      "advisors": [
+        307
+      ],
+      "students": [
+        39426,
+        177122,
+        177123,
+        177124,
+        44824
+      ]
+    },
+    {
+      "id": 727,
+      "name": "Raymond Yen-Tin Wong",
+      "thesis": "On Homeomorphisms of Infinite Dimensional Product Spaces",
+      "school": "Louisiana State University",
+      "country": "UnitedStates",
+      "year": 1967,
+      "subject": null,
+      "advisors": [
+        307
+      ],
+      "students": []
+    },
+    {
+      "id": 3926,
+      "name": "Balram Singh Rajput",
+      "thesis": "Determinable Sets in Banach Spaces",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1970,
+      "subject": null,
+      "advisors": [
+        5654, 727, 728
+      ],
+      "students": [
+        3854,
+        3865,
+        3852,
+        3889
+      ]
+    },
+    {
+      "id": 3924,
+      "name": "Anton Mikhailovich Petrunin",
+      "thesis": "Quasigeodesics in Multidimensional Alexandrov Spaces",
+      "school": "University of Illinois at Urbana-Champaign",
+      "country": "UnitedStates",
+      "year": 1995,
+      "subject": "53—Differential geometry",
+      "advisors": [
+        4009,
+        84371
+      ],
+      "students": [
+        136246
+      ]
+    },
+    {
+      "id": 729,
+      "name": "Thomas Ashland Chapman",
+      "thesis": "Dense Sigma-Compact Subsets of Infinite Dimensional Manifolds",
+      "school": "Louisiana State University",
+      "country": "UnitedStates",
+      "year": 1970,
+      "subject": null,
+      "advisors": [
+        307
+      ],
+      "students": [
+        33975,
+        6933,
+        6959,
+        6930,
+        6950
+      ]
+    }
+  ]
+}
