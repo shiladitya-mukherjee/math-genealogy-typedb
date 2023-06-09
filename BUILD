@@ -14,7 +14,11 @@ java_binary(
             ":data.json",
             ":datalite.json",
             ":schema.tql"
-        ]
+        ],
+    resources =
+    [
+        ":logback.xml"
+    ]
 )
 java_test(
     name="data-loader-test",
