@@ -43,7 +43,6 @@ public class DataLoaderTest
     {
         try(TypeDBTransaction transaction = session.transaction(TypeDBTransaction.Type.READ, options))
         {
-
             //139 mathematician
             {
                 TypeQLMatch.Unfiltered.Aggregate query=TypeQL.match(var("x").isa("mathematician")).count();
