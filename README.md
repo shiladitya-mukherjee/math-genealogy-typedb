@@ -215,4 +215,3 @@ offer sub relation,
 relates school,
 relates subject,
 relates speciality;
-```
