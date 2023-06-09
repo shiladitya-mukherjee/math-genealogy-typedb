@@ -21,30 +21,30 @@
 
 load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
-def vaticle_dependencies():
-    git_repository(
-        name = "vaticle_dependencies",
-        remote = "https://github.com/vaticle/dependencies",
-        commit = "a8b3b714a5e0562d41f4c05ca8f266d48b7d0fd3", # sync-marker: do not remove this comment, this is used for sync-dependencies by @vaticle_dependencies
-    )
-
 def vaticle_typedb_common():
     git_repository(
         name = "vaticle_typedb_common",
         remote = "https://github.com/vaticle/typedb-common",
-        commit = "f0dd708adaea9fe1fdc3699180797a12166d33e8" # sync-marker: do not remove this comment, this is used for sync-dependencies by @vaticle_typedb_common
+        tag = "2.17.0", # sync-marker: do not remove this comment, this is used for sync-dependencies by @vaticle_typedb_common
+    )
+
+def vaticle_dependencies():
+    git_repository(
+        name = "vaticle_dependencies",
+        remote = "https://github.com/vaticle/dependencies",
+        commit = "66596a14ec39921e04aa336af8439962d4ee0005", # sync-marker: do not remove this comment, this is used for sync-dependencies by @vaticle_dependencies
     )
 
 def vaticle_typeql():
     git_repository(
         name = "vaticle_typeql",
         remote = "https://github.com/vaticle/typeql",
-        commit = "e44b3000ee297fc453d1f3a835253be3181f8ed1", # sync-marker: do not remove this comment, this is used for sync-dependencies by @vaticle_typeql_lang_java
+        tag = "2.17.0", # sync-marker: do not remove this comment, this is used for sync-dependencies by @vaticle_typeql
     )
 
 def vaticle_typedb_client_java():
     git_repository(
         name = "vaticle_typedb_client_java",
         remote = "https://github.com/vaticle/client-java",
-        commit = "8c5b0ffe7c1a63613da4aaec4137de1058434fe0",  # sync-marker: do not remove this comment, this is used for sync-dependencies by @vaticle_typedb_client_java
+        tag = "2.17.1",  # sync-marker: do not remove this comment, this is used for sync-dependencies by @vaticle_typedb_client_java
     )

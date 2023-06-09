@@ -28,3 +28,20 @@ java_test(
             "@vaticle_typeql//java/query", ":data-migrator"
         ]
 )
+
+load("@vaticle_typedb_common//test:rules.bzl", "native_typedb_artifact")
+load("@vaticle_bazel_distribution//artifact:rules.bzl", "artifact_extractor")
+
+native_typedb_artifact(
+    name = "native-typedb-artifact",
+    mac_artifact = "@vaticle_typedb_artifact_mac//file",
+    linux_artifact = "@vaticle_typedb_artifact_linux//file",
+    windows_artifact = "@vaticle_typedb_artifact_windows//file",
+    output = "typedb-server-native.tar.gz",
+    visibility = ["//test:__subpackages__"],
+)
+
+artifact_extractor(
+    name = "typedb-extractor",
+    artifact = ":native-typedb-artifact",
+)

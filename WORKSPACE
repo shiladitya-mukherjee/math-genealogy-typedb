@@ -138,3 +138,19 @@ workspace_refs(name = "vaticle_typedb_examples_workspace_refs")
 load("@vaticle_dependencies//builder/compose:deps.bzl", compose_deps = "deps")
 compose_deps()
 load("@io_bazel_rules_kotlin//kotlin:kotlin.bzl", "kt_jvm_binary", "kt_jvm_library")
+
+
+load("@vaticle_dependencies//distribution:deps.bzl", "vaticle_bazel_distribution")
+vaticle_bazel_distribution()
+
+load("@vaticle_dependencies//distribution/artifact:rules.bzl", "native_artifact_files")
+load("@vaticle_dependencies//distribution:deployment.bzl", "deployment")
+
+native_artifact_files(
+    name = "vaticle_typedb_artifact",
+    group_name = "vaticle_typedb",
+    artifact_name = "typedb-server-{platform}-{version}.{ext}",
+    tag_source = deployment["artifact.release"],
+    commit_source = deployment["artifact.snapshot"],
+    tag = "2.11.1"
+)

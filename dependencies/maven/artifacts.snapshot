@@ -13,7 +13,7 @@
 @maven//:com_google_code_findbugs_jsr305
 @maven//:com_google_code_findbugs_jsr305_2_0_2
 @maven//:com_google_code_gson_gson
-@maven//:com_google_code_gson_gson_2_8_5
+@maven//:com_google_code_gson_gson_2_8_6
 @maven//:com_google_errorprone_error_prone_annotations
 @maven//:com_google_errorprone_error_prone_annotations_2_9_0
 @maven//:com_google_guava_failureaccess
@@ -28,8 +28,6 @@
 @maven//:com_google_j2objc_j2objc_annotations_1_3
 @maven//:com_google_protobuf_protobuf_java
 @maven//:com_google_protobuf_protobuf_java_3_14_0
-@maven//:com_univocity_univocity_parsers
-@maven//:com_univocity_univocity_parsers_2_8_1
 @maven//:commons_codec_commons_codec
 @maven//:commons_codec_commons_codec_1_11
 @maven//:commons_io_commons_io
@@ -108,8 +106,6 @@
 @maven//:io_perfmark_perfmark_api_0_23_0
 @maven//:javax_annotation_javax_annotation_api
 @maven//:javax_annotation_javax_annotation_api_1_3_2
-@maven//:javax_xml_stream_stax_api
-@maven//:javax_xml_stream_stax_api_1_0_2
 @maven//:junit_junit
 @maven//:junit_junit_4_12
 @maven//:net_bytebuddy_byte_buddy
