@@ -215,6 +215,19 @@ class DataMigrator
         }
     }
 
+    private static void defineSchema(String databaseName, String schemaFileName, TypeDBClient client) {
+        try (TypeDBSession session = client.session(databaseName, TypeDBSession.Type.SCHEMA)) {
+            try (TypeDBTransaction transaction = session.transaction(TypeDBTransaction.Type.WRITE)) {
+                String typeQLSchemaQuery = Files.readString(Paths.get(schemaFileName));
+                System.out.println("Defining schema...");
+                transaction.query().define(TypeQL.parseQuery(typeQLSchemaQuery).asDefine());
+                transaction.commit();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+
     public static void main(String[] args)
     {
         Path filePath=Paths.get("datalite.json");
@@ -235,8 +248,15 @@ class DataMigrator
         List mylist=file.at("nodes").asList();
         sz=mylist.size();
         System.out.println("Size = "+sz);
-
-        try (TypeDBSession session = client.session("onboarding", TypeDBSession.Type.DATA)) {
+        String dbName="onboarding";
+        String schemaFileName="schema.tql";
+        if (client.databases().contains(dbName))
+        {
+            client.databases().get(dbName).delete();
+        }
+        client.databases().create(dbName);
+        defineSchema(dbName, schemaFileName, client);
+        try (TypeDBSession session = client.session(dbName, TypeDBSession.Type.DATA)) {
 
             //first purge existing data
             try (TypeDBTransaction writeTransaction = session.transaction(TypeDBTransaction.Type.WRITE)) {
@@ -257,4 +277,3 @@ class DataMigrator
         client.close();
     }
 }
-

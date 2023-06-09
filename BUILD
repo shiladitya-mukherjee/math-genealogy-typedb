@@ -1,5 +1,5 @@
 java_binary(
-    name = "DataMigrator",
+    name = "data-migrator",
     main_class= "math_genealogy.DataMigrator",
     srcs=["DataMigrator.java"],
     deps =
@@ -12,7 +12,8 @@ java_binary(
     data =
         [
             ":data.json",
-            ":datalite.json"
+            ":datalite.json",
+            ":schema.tql"
         ]
 )
 java_test(
@@ -24,6 +25,6 @@ java_test(
             "@maven//:org_sharegov_mjson","@vaticle_typedb_client_java//:client-java",
             "@vaticle_typedb_client_java//api",
             "@vaticle_typeql//java:typeql-lang",
-            "@vaticle_typeql//java/query", ":DataMigrator"
+            "@vaticle_typeql//java/query", ":data-migrator"
         ]
 )

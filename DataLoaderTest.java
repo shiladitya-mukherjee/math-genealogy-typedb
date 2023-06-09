@@ -6,6 +6,7 @@ import com.vaticle.typedb.client.api.TypeDBSession;
 import com.vaticle.typedb.client.TypeDB;
 import com.vaticle.typedb.client.api.TypeDBTransaction;
 import com.vaticle.typedb.client.api.answer.Numeric;
+import com.vaticle.typedb.client.api.answer.NumericGroup;
 import com.vaticle.typedb.client.api.query.QueryFuture;
 import com.vaticle.typeql.lang.TypeQL;
 import com.vaticle.typeql.lang.query.TypeQLMatch;
@@ -16,6 +17,9 @@ import org.junit.Test;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.stream.Stream;
 
 import static com.vaticle.typeql.lang.TypeQL.var;
 import static org.junit.Assert.assertEquals;
@@ -43,73 +47,25 @@ public class DataLoaderTest
     {
         try(TypeDBTransaction transaction = session.transaction(TypeDBTransaction.Type.READ, options))
         {
-            //139 mathematician
-            {
-                TypeQLMatch.Unfiltered.Aggregate query=TypeQL.match(var("x").isa("mathematician")).count();
-                QueryFuture<Numeric> ans=transaction.query().match(query);
-                assertEquals(ans.get().asLong(), 139);
-            }
+            Map<String, Long> expected=new HashMap<>();
+            expected.put("Mathematician", Long.valueOf(139));
+            expected.put("id", Long.valueOf(139));
+            expected.put("speciality", Long.valueOf(10));
+            expected.put("mastery", Long.valueOf(139));
+            expected.put("research", Long.valueOf(18));
+            expected.put("offer", Long.valueOf(20));
+            expected.put("name", Long.valueOf(160));
+            expected.put("school", Long.valueOf(10));
+            expected.put("year_of_degree", Long.valueOf(44));
+            expected.put("subject", Long.valueOf(1));
+            expected.put("co-teach", Long.valueOf(2));
 
-            //139 id
-            {
-                TypeQLMatch.Unfiltered.Aggregate query=TypeQL.match(var("x").isa("id")).count();
-                QueryFuture<Numeric> ans=transaction.query().match(query);
-                assertEquals(ans.get().asLong(), 139);
-            }
-            //10 speciality
-            {
-                TypeQLMatch.Unfiltered.Aggregate query=TypeQL.match(var("x").isa("speciality")).count();
-                QueryFuture<Numeric> ans=transaction.query().match(query);
-                assertEquals(ans.get().asLong(), 10);
-            }
-            //139 mastery
-            {
-                TypeQLMatch.Unfiltered.Aggregate query=TypeQL.match(var("x").isa("mastery")).count();
-                QueryFuture<Numeric> ans=transaction.query().match(query);
-                assertEquals(ans.get().asLong(), 139);
-            }
-            //18 research
-            {
-                TypeQLMatch.Unfiltered.Aggregate query=TypeQL.match(var("x").isa("research")).count();
-                QueryFuture<Numeric> ans=transaction.query().match(query);
-                assertEquals(ans.get().asLong(), 18);
-            }
-            //20 offer
-            {
-                TypeQLMatch.Unfiltered.Aggregate query=TypeQL.match(var("x").isa("offer")).count();
-                QueryFuture<Numeric> ans=transaction.query().match(query);
-                assertEquals(ans.get().asLong(), 20);
-            }
-            //160 name
-            {
-                TypeQLMatch.Unfiltered.Aggregate query=TypeQL.match(var("x").isa("name")).count();
-                QueryFuture<Numeric> ans=transaction.query().match(query);
-                assertEquals(ans.get().asLong(), 160);
-            }
-            //10 school
-            {
-                TypeQLMatch.Unfiltered.Aggregate query=TypeQL.match(var("x").isa("school")).count();
-                QueryFuture<Numeric> ans=transaction.query().match(query);
-                assertEquals(ans.get().asLong(), 10);
-            }
-            //44 year of degree
-            {
-                TypeQLMatch.Unfiltered.Aggregate query=TypeQL.match(var("x").isa("year_of_degree")).count();
-                QueryFuture<Numeric> ans=transaction.query().match(query);
-                assertEquals(ans.get().asLong(), 44);
-            }
-            //11 subject
-            {
-                TypeQLMatch.Unfiltered.Aggregate query=TypeQL.match(var("x").isa("subject")).count();
-                QueryFuture<Numeric> ans=transaction.query().match(query);
-                assertEquals(ans.get().asLong(), 11);
-            }
-            //2 co-teach
-            {
-                TypeQLMatch.Unfiltered.Aggregate query=TypeQL.match(var("x").isa("co-teach")).count();
-                QueryFuture<Numeric> ans=transaction.query().match(query);
-                assertEquals(ans.get().asLong(), 2);
-            }
+
+            TypeQLMatch.Unfiltered.Group.Aggregate query = TypeQL.match(
+                    var("x").isaX(var("y"))
+            ).get("x", "y").group("y").count();
+            Stream<NumericGroup> query_stream=transaction.query().match(query);
+            query_stream.forEach(element->{String label=element.owner().asType().getLabel().name(); if (expected.containsKey(label)) assertEquals(expected.get(label).longValue(), element.numeric().asLong());});
         }
     }
 
