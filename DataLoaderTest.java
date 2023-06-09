@@ -1,4 +1,4 @@
-package com.vaticle.typedb.example.genealogy.math_genealogy;
+package math_genealogy;
 
 import com.vaticle.typedb.client.api.TypeDBClient;
 import com.vaticle.typedb.client.api.TypeDBOptions;
@@ -32,7 +32,7 @@ public class DataLoaderTest
     @Before
     public void loadDataAndConnect() throws FileNotFoundException
     {
-        json_test.main(new String[] {});
+        DataMigrator.main(new String[] {});
         client = TypeDB.coreClient(databaseAddress);
         session = client.session(databaseName, TypeDBSession.Type.DATA);
         options=TypeDBOptions.core().infer(true);

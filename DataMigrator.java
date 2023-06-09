@@ -1,4 +1,4 @@
-package com.vaticle.typedb.example.genealogy.math_genealogy;
+package math_genealogy;
 
 import com.vaticle.typeql.lang.query.TypeQLDelete;
 import mjson.Json;
@@ -20,7 +20,7 @@ import static com.vaticle.typeql.lang.TypeQL.*;
 
 import com.vaticle.typeql.lang.query.TypeQLInsert;
 
-class json_test
+class DataMigrator
 {
     public static int get_id(Json file, int idx)
     {
@@ -55,7 +55,7 @@ class json_test
 
     public static void main(String[] args)
     {
-        Path filePath=Paths.get("genealogy/math_genealogy/datalite.json");
+        Path filePath=Paths.get("datalite.json");
 
         TypeDBClient client = TypeDB.coreClient("localhost:1729");
         try

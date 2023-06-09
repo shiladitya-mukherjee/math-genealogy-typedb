@@ -1,7 +1,7 @@
 java_binary(
-    name = "json_test",
-    main_class= "com.vaticle.typedb.example.genealogy.math_genealogy.json_test",
-    srcs=["json-test.java"],
+    name = "DataMigrator",
+    main_class= "math_genealogy.DataMigrator",
+    srcs=["DataMigrator.java"],
     deps = ["@maven//:org_sharegov_mjson","@vaticle_typedb_client_java//:client-java",
                                                                 "@vaticle_typedb_client_java//api",
                                                               "@vaticle_typeql//java:typeql-lang",
@@ -14,10 +14,10 @@ java_binary(
 )
 java_test(
     name="DataLoaderTest",
-    test_class="com.vaticle.typedb.example.genealogy.math_genealogy.DataLoaderTest",
+    test_class="math_genealogy.DataLoaderTest",
     srcs=["DataLoaderTest.java"],
     deps = ["@maven//:org_sharegov_mjson","@vaticle_typedb_client_java//:client-java",
                                                                            "@vaticle_typedb_client_java//api",
                                                                          "@vaticle_typeql//java:typeql-lang",
-                                                                         "@vaticle_typeql//java/query", ":json_test"]
+                                                                         "@vaticle_typeql//java/query", ":DataMigrator"]
 )
